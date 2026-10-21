@@ -27,6 +27,7 @@ class MyItem extends StatelessWidget {
       body: const Center(
         child: Text('Adyl Pandu Setiawan - 1124160136'),
       ),
+      backgroundColor: Colors.greenAccent
     );
   }
 }
