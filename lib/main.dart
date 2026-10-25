@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      darkTheme: ThemeData.dark(),
       title: 'Aplikasi Mahasiswa',
       debugShowCheckedModeBanner: false,
       home: const MyItem(),
@@ -29,8 +30,7 @@ class MyItem extends StatelessWidget {
       ),
       body: const Center(
         child: Text('Adyl Pandu Setiawan - 1124160136'),
-      ),
-      backgroundColor: Colors.greenAccent
+      )
     );
   }
 }
